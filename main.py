@@ -11,10 +11,15 @@ def ReadTxtFile(FileName):
 
 
 
-def UseListGetCupon(CouponList):
-    for i in CouponList:
-        print(i)
-    pass
+# def UseListGetCupon(CouponList):
+#     for i in CouponList:
+#         TestCuponUrl = BaseUrl+i
+#         PossibleRequest = requests.get(TestCuponUrl, headers=FakeHeaders)
+#         if PossibleRequest.text == FailString:
+#             print("lol")
+#         else:
+#             print("very good")
+#     pass
 
 # for i in BaseText:
 #     TestCuponUrl = BaseUrl+i
